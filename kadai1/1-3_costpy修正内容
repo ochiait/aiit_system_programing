@@ -1,0 +1,20 @@
+1_3cost.py:1:12: E401 multiple imports on one line
+1_3cost.py:3:4: E225 missing whitespace around operator
+1_3cost.py:6:24: E203 whitespace before ':'
+1_3cost.py:7:37: E231 missing whitespace after ','
+
+1_3cost.py:10:6: E211 whitespace before '('
+1_3cost.py:10:8: E201 whitespace after '('
+1_3cost.py:10:19: E203 whitespace before ','
+1_3cost.py:10:29: E203 whitespace before ','
+1_3cost.py:10:37: E251 unexpected spaces around keyword / parameter equals
+1_3cost.py:10:39: E251 unexpected spaces around keyword / parameter equals
+
+1行目：2つをインポートする際は2行に分ける。
+3行目：二項演算子の前後は空白文字をいれる。
+6行目：':'の前の空白文字を無くす。
+7行目：','の後はスペースを空ける。
+7行目：インデントは4つの空白文字にする。
+10行目：'('の前後のスペースを無くす。
+10行目：','の前のスペースを無くす(2箇所)。
+10行目：パラメータを示す'='の前後には空白を入れない。
