@@ -17,7 +17,5 @@ for s in f:
     if s:
         print("{:6d}\t{}".format(i, s))
         i += 1
-#    else:
-#        print("")
 
 f.close()
